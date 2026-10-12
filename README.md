@@ -50,7 +50,7 @@ The firmware implements one button. It does not include multi-player first-press
 
 ## Where to buy
 
-Buy the [nRF52840 board here](https://de.aliexpress.com/item/1005009750451202.htm) and the [large momentary button here](https://de.aliexpress.com/item/1005002900624434.html). These are components we tested.
+Buy the [nRF52840 board here](https://de.aliexpress.com/item/1005009750451202.html) and the [large momentary button here](https://de.aliexpress.com/item/1005002900624434.html). These are components we tested.
 
 A suitable **100–200 mAh 1S LiPo**, USB-C data cable, wire, and adhesive can be sourced from an electronics or model-making supplier. Check battery dimensions, polarity, protection, and permitted charge current before ordering.
 

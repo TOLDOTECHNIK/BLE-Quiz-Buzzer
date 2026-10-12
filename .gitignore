@@ -2,4 +2,5 @@
 .tmp/
 .storage/
 .DS_Store
+.vscode/
 firmware.uf2
