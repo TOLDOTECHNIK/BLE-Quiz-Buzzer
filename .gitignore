@@ -1,0 +1,5 @@
+.pio/
+.tmp/
+.storage/
+.DS_Store
+firmware.uf2
