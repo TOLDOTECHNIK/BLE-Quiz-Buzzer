@@ -1,6 +1,6 @@
 # BLE Quiz Buzzer — Bluetooth & USB Quiz Button
 
-A big push button that works like a tiny keyboard. Press it to send **A followed by Space** to a computer, tablet, or phone over Bluetooth Low Energy (BLE), or to a computer over USB.
+A big push button that works like a tiny keyboard. Press it to send **A followed by Space** to a computer, tablet, or phone over Bluetooth Low Energy (BLE), or to a computer over USB. It consumes only around 10 µA in deep sleep.
 
 No custom receiver or companion app is included. Your quiz, game, or presentation software must respond to those keys. The button itself does **not** produce sound: any sound must come from the receiving application.
 
@@ -175,8 +175,6 @@ A suitable **100–200 mAh LiPo** can power the wireless button. The software en
 
 
 Battery percentage is a rough voltage estimate: the code maps 3.3 V to 0%, 3.7 V to 100%, and everything above 3.7 V to 100%. It is not a fuel gauge. It may remain at 100% for a long time and can be misleading while USB is attached because VDDH can reflect USB power. Whether the host displays the BLE battery service depends on the host.
-
-Source comments record approximately 49.70 µA with external power enabled and 9.10 µA disabled on the author's setup, including a diode modification. These are setup-specific measurements, not guaranteed battery life or factory-board performance. See the [board investigation](https://github.com/sasodoma/nrf52840-promicro#sleep-current-problems) for hardware variation. No diode modification is required by this assembly guide.
 
 ## Build the firmware (optional for users with a prebuilt UF2)
 

@@ -37,6 +37,6 @@ Once the electronics work and the fit is correct, unplug USB and disconnect the 
 
 ## 4. Glue the TPU Rubber Pad into the underside
 
-Fit the TPU ring into the matching underside recess. Its flat contact surface should face the table. Glue the pad with a small amount of super glue..
+Fit the TPU ring into the matching underside recess. Its flat contact surface should face the table. Glue the pad with a small amount of super glue.
 
 [Back to the project README](../README.md)
