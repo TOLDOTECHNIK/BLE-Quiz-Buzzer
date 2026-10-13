@@ -1,8 +1,10 @@
 # BLE Quiz Buzzer — Bluetooth & USB Quiz Button
 
-A big push button that works like a tiny keyboard. Press it to send **A followed by Space** to a computer, tablet, or phone over Bluetooth Low Energy (BLE), or to a computer over USB. It consumes only around 10 µA in deep sleep.
+A big push button that works like a tiny keyboard. Press it to send **A followed by Space** to a computer, tablet, or phone over **Bluetooth Low Energy (BLE)**, or to a computer over **USB**. It consumes only around **10 µA in deep sleep**.
 
-No custom receiver or companion app is included. Your quiz, game, or presentation software must respond to those keys. The button itself does **not** produce sound: any sound must come from the receiving application.
+Looking for matching software? Check out **[Tombola Studio](https://github.com/TOLDOTECHNIK/Tombola-Studio)**, our companion software for running your tombola.
+
+No custom receiver is required. You can also use the button with any quiz, game, or presentation software that responds to these keys. The button itself **does not produce sound**—any sound comes from the receiving application.
 
 ![BLEBuzzer — photorealistic product illustration](docs/buzzer-hero.png)
 
